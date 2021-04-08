@@ -19,7 +19,9 @@ task3Element.addEventListener('click',one);
 
 // task 4
 function three(name1, name2, name3) {
-    alert("Welcome "+ name1 + name2+ name3);
+    let result = name1 + name2+ name3;
+    return result;
 }
 
-three('Tom ','Max ','Louis');
+let result = three('Tom ','Max ','Louis');
+alert(result);
