@@ -24,7 +24,7 @@ function getMaxLifeValues() {
   return parsedValue;
 }
 
-let chosenMaxLife ;
+let chosenMaxLife;
 
 try {
   chosenMaxLife = getMaxLifeValues();
